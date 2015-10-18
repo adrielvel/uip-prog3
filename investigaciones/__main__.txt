@@ -1,0 +1,2 @@
+Función que se utiliza principalmente para el llamado de una función creada en python. El llamado de la misma tiene como finalidad
+reutilizar un recurso, proceso algo parecido a un script.
