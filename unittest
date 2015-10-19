@@ -1,0 +1,19 @@
+class Suma(object)
+	def add(x, y, z)
+		return z = x + y
+if __name__ == '__main__':
+sum = Suma()
+total = sum.add(1, 1)
+print total
+
+import unittest
+from app.sum import Suma
+	def setUp (z):
+		self.sum = Suma()
+		
+	def test_add_method_returns_correct_result(self):
+		self.assertEqual(4, self.calc.add(1,1))
+		
+
+if __name__ == '__main__':
+unittest.main()
