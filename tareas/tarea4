@@ -1,0 +1,10 @@
+#Tarea4
+
+t = 0
+t = int(input("Minutos a transformar: "))
+if t >= 0:
+	dias = t%1440
+	horas = t / 60
+	minutos = t %60
+	print("Dias: " + str(dias) + "Horas: " + str(horas) + "Minutos: "+ str(minutos))
+	print("Hasta luego")
